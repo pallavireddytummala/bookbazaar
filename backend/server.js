@@ -1,6 +1,6 @@
 const exp = require('express');
 const app = exp();
-const { MongoClient } = require('mongodb');
+const { MongoClient,ServerApiVersion } = require('mongodb');
 const userApp = require('./API/user-api');
 const adminApp = require('./API/admin-api');
 const sellerApp = require('./API/seller-api');
@@ -8,17 +8,24 @@ const deliveryApp = require('./API/delivery-api');
 const path = require('path');
 const cors = require('cors');
 const bcryptjs=require('bcryptjs');
+const mongoose = require('mongoose');
 app.use(cors());
 app.use(exp.json());
 app.use(exp.static(path.join(__dirname, '../frontend/build')));
 
 const port = 4000;
-const dbUrl = 'mongodb://127.0.0.1:27017/bookstore';
+const dbUrl = 'mongodb+srv://Pallu:Pallu@bookstore.33gwdzv.mongodb.net/?retryWrites=true&w=majority&appName=BookStore'
 
 // Connect to MongoDB and create collections
-const client = new MongoClient(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true });
+const client = new MongoClient(dbUrl,{
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
+});
 
-client.connect()
+mongoose.connect(dbUrl)
     .then(() => {
         const db = client.db();
 
