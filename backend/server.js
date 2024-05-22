@@ -88,7 +88,7 @@ bcryptjs.hash(newAdmin.password, 6)
           author: 'F. Scott Fitzgerald',
           category: 'Classic Literature',
           price: 10.99,
-          bookImage: 'https://www.google.com/imgres?q=the%20great%20gatsby&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F7a%2FThe_Great_Gatsby_Cover_1925_Retouched.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Great_Gatsby&docid=CQKsQBfci-Y4eM&tbnid=2hTkBZS7B5GsOM&vet=12ahUKEwiS-o7bvZyGAxUIamwGHczcDEsQM3oECH0QAA..i&w=1129&h=1600&hcb=2&itg=1&ved=2ahUKEwiS-o7bvZyGAxUIamwGHczcDEsQM3oECH0QAA',
+          bookImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg',
           username: 'seller',
           status: true,
           comments: []
@@ -99,7 +99,7 @@ bcryptjs.hash(newAdmin.password, 6)
           author: 'Harper Lee',
           category: 'Classic Literature',
           price: 12.99,
-          bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTo_Kill_a_Mockingbird&psig=AOvVaw3TY2a1IT878e3-0oTvpSSk&ust=1716303570020000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjvi5q_nIYDFQAAAAAdAAAAABAE',
+          bookImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/800px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg',
           username: 'seller',
           status: true,
           comments: []
@@ -110,7 +110,7 @@ bcryptjs.hash(newAdmin.password, 6)
           author: 'J.K. Rowling',
           category: 'Fantasy',
           price: 15.99,
-          bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FHarry-Potter-Philosophers-Stone-Rowling%2Fdp%2F1408855658&psig=AOvVaw0nb_x4zPinvNE8o4rLfcFs&ust=1716303652968000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLi4jL-_nIYDFQAAAAAdAAAAABAE',
+          bookImage: 'https://m.media-amazon.com/images/I/81q77Q39nEL._SL1500_.jpg',
           username: 'seller',
           status: true,
           comments: []
@@ -121,7 +121,7 @@ bcryptjs.hash(newAdmin.password, 6)
             author: 'George Orwell',
             category: 'Dystopian Fiction',
             price: 9.99,
-            bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.co.uk%2F1984-George-Orwell-Eighty-Four-Paperback%2Fdp%2F605746222X&psig=AOvVaw1VEckeO9G6oSyJDqi0TUCV&ust=1716303701529000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJiEwtm_nIYDFQAAAAAdAAAAABAJ',
+            bookImage: 'https://m.media-amazon.com/images/I/61NAx5pd6XL._SY466_.jpg',
             username: 'seller',
             status: true,
             comments: []
@@ -132,7 +132,7 @@ bcryptjs.hash(newAdmin.password, 6)
             author: 'Jane Austen',
             category: 'Romance',
             price: 11.99,
-            bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kobo.com%2Fin%2Fen%2Febook%2Fpride-and-prejudice-71&psig=AOvVaw219mw1oaegozklQgC5gEOl&ust=1716303741609000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPiQrem_nIYDFQAAAAAdAAAAABAE',
+            bookImage: 'https://cdn.kobo.com/book-images/afcd8653-3b27-4423-bee9-570fb1441aed/353/569/90/False/pride-and-prejudice-71.jpg',
             username: 'seller',
             status: true,
             comments: []
@@ -143,7 +143,7 @@ bcryptjs.hash(newAdmin.password, 6)
             author: 'J.D. Salinger',
             category: 'Coming-of-Age Fiction',
             price: 10.49,
-            bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FCatcher-Rye-J-D-Salinger%2Fdp%2F0316769487&psig=AOvVaw02iVgqVackhRA-6x-_YK_h&ust=1716303773514000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiG3_e_nIYDFQAAAAAdAAAAABAE',
+            bookImage: 'https://m.media-amazon.com/images/I/51TI+w56qFL._SY445_SX342_.jpg',
             username: 'seller',
             status: true,
             comments: []
@@ -154,7 +154,7 @@ bcryptjs.hash(newAdmin.password, 6)
             author: 'J.R.R. Tolkien',
             category: 'Fantasy',
             price: 14.99,
-            bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FHobbit-There-Back-Again%2Fdp%2F0547844972&psig=AOvVaw0nurzt05ehkEf0dZty41K0&ust=1716303801139000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiqxoTAnIYDFQAAAAAdAAAAABAE',
+            bookImage: 'https://m.media-amazon.com/images/I/717TGeIkVML._SY425_.jpg',
             username: 'seller',
             status: true,
             comments: []
@@ -165,7 +165,7 @@ bcryptjs.hash(newAdmin.password, 6)
             author: 'J.R.R. Tolkien',
             category: 'Fantasy',
             price: 19.99,
-            bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Lord_of_the_Rings&psig=AOvVaw2N3cVHPxN6pa8ttMHG0K_x&ust=1716303835015000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjpvpjAnIYDFQAAAAAdAAAAABAE',
+            bookImage: 'https://upload.wikimedia.org/wikipedia/en/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif',
             username: 'seller',
             status: true,
             comments: []
@@ -176,7 +176,7 @@ bcryptjs.hash(newAdmin.password, 6)
             author: 'Dan Brown',
             category: 'Mystery',
             price: 13.49,
-            bookImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bookchor.com%2Fbook%2F9780552149518%2Fthe-da-vinci-code&psig=AOvVaw2gybOlRlZuyUK8RSk_Qk8Z&ust=1716303870176000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDQn6bAnIYDFQAAAAAdAAAAABAE',
+            bookImage: 'https://img.bookchor.com/images/cover/568/9780552149518.jpg',
             username: 'seller',
             status: true,
             comments: []
